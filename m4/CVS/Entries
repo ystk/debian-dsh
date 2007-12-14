@@ -1,0 +1,21 @@
+/.cvsignore/1.2/Wed Sep 11 10:00:25 2002//
+/ChangeLog/1.1/Wed Sep 11 09:22:31 2002//
+/Makefile.am/1.1/Wed Sep 11 09:22:31 2002//
+/codeset.m4/1.1/Wed Sep 11 09:22:31 2002//
+/gettext.m4/1.1/Wed Sep 11 09:22:31 2002//
+/glibc21.m4/1.1/Wed Sep 11 09:22:31 2002//
+/iconv.m4/1.1/Wed Sep 11 09:22:31 2002//
+/intdiv0.m4/1.1/Wed Sep 11 09:22:31 2002//
+/inttypes-pri.m4/1.1/Wed Sep 11 09:22:31 2002//
+/inttypes.m4/1.1/Wed Sep 11 09:22:31 2002//
+/inttypes_h.m4/1.1/Wed Sep 11 09:22:31 2002//
+/isc-posix.m4/1.1/Wed Sep 11 09:22:31 2002//
+/lcmessage.m4/1.1/Wed Sep 11 09:22:31 2002//
+/lib-ld.m4/1.1/Wed Sep 11 09:22:31 2002//
+/lib-link.m4/1.1/Wed Sep 11 09:22:31 2002//
+/lib-prefix.m4/1.1/Wed Sep 11 09:22:31 2002//
+/progtest.m4/1.1/Wed Sep 11 09:22:31 2002//
+/stdint_h.m4/1.1/Wed Sep 11 09:22:31 2002//
+/uintmax_t.m4/1.1/Wed Sep 11 09:22:31 2002//
+/ulonglong.m4/1.1/Wed Sep 11 09:22:31 2002//
+D
