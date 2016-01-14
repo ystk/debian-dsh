@@ -1,0 +1,15 @@
+/.cvsignore/1.2/Sun Sep 22 08:22:46 2002//
+/README.Debian/1.4/Sat Oct 19 06:28:02 2002//
+/conffiles/1.2/Fri Jan 24 10:45:44 2003//
+/copyright/1.7/Wed Mar 16 00:14:55 2005//
+/dirs/1.1.1.1/Fri Oct  5 17:56:59 2001//
+/docs/1.1.1.1/Fri Oct  5 17:56:59 2001//
+/dsh.updatelist/1.2/Mon Sep 23 07:29:22 2002//
+/machines.list/1.1.1.1/Fri Oct  5 17:56:59 2001//
+/postrm/1.2/Sun Dec 23 05:31:59 2001//
+/rules/1.14/Sun Jun  8 04:02:10 2003//
+/watch/1.1/Wed Mar 30 00:42:15 2005//
+/compat/1.2/Fri Aug 11 14:14:33 2006//
+D/pbuilder-test////
+/control/1.14/Wed Aug 15 00:04:05 2007//
+/changelog/1.56/Wed Aug 15 00:03:59 2007//

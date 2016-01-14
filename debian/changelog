@@ -1,0 +1,424 @@
+dsh (0.25.10-1.1) unstable; urgency=medium
+
+  [ Aurelien Jarno ]
+  * Non-maintainer upload.
+  
+  [ Logan Rosen ]
+  * Use autotools-dev to update config.{sub,guess} for new arches (Closes:
+    #735633).
+
+ -- Aurelien Jarno <aurel32@debian.org>  Sat, 04 Oct 2014 21:55:24 +0200
+
+dsh (0.25.10-1) unstable; urgency=low
+
+  * New upstream version
+  - output is 'setlinebuf'd for better viewing.
+
+ -- Junichi Uekawa <dancer@debian.org>  Fri, 14 Dec 2007 09:05:39 +0900
+
+dsh (0.25.9-1) unstable; urgency=low
+
+  * New upstream version
+  - add --hide-machine-names
+  - use po4a for manpage management.
+
+ -- Junichi Uekawa <dancer@debian.org>  Wed, 15 Aug 2007 09:03:39 +0900
+
+dsh (0.25.8-1) unstable; urgency=low
+
+  * New upstream version
+  - Bug fix: "forklimit in dsh.conf will not work correctly.", thanks to
+    Holger Paschke (Closes: #420528).
+  * add pbuilder-test.
+
+ -- Junichi Uekawa <dancer@debian.org>  Fri, 18 May 2007 20:18:13 +0900
+
+dsh (0.25.7-1) unstable; urgency=low
+
+  * New upstream version
+  * fix manual page.
+  * Standards-version: 3.7.2
+  * dh_compat=4
+
+ -- Junichi Uekawa <dancer@debian.org>  Fri, 11 Aug 2006 23:15:17 +0900
+
+dsh (0.25.6-1) unstable; urgency=low
+
+  * New upstream version
+  - fix build failure on solaris.
+  * add uscan file
+
+ -- Junichi Uekawa <dancer@debian.org>  Wed, 30 Mar 2005 09:41:55 +0900
+
+dsh (0.25.5-1) unstable; urgency=low
+
+  * New upstream version
+  - reverse iteration of machinelist is now modified to be in the 
+    'proper' order. (closes: #291586)
+
+ -- Junichi Uekawa <dancer@debian.org>  Wed, 16 Mar 2005 09:12:22 +0900
+
+dsh (0.25.4-1) unstable; urgency=low
+
+  * New upstream version
+  - fix compilation error on solaris. (closes: #283728)
+
+ -- Junichi Uekawa <dancer@debian.org>  Fri,  3 Dec 2004 08:56:27 +0900
+
+dsh (0.25.3-1) unstable; urgency=low
+
+  * New upstream version
+  - Rebuild with libdshconfig with versioned symbols
+  - support # as comments in machine files (closes: #249794)
+
+ -- Junichi Uekawa <dancer@debian.org>  Sun,  6 Jun 2004 17:30:05 +0900
+
+dsh (0.25.2.1-1) unstable; urgency=low
+
+  * New upstream version
+  * Rebuild original tar archive with fixed automake1.8 (closes: #244869)
+
+ -- Junichi Uekawa <dancer@debian.org>  Sun, 25 Apr 2004 11:46:05 +0900
+
+dsh (0.25.2-1) unstable; urgency=low
+
+  * New upstream version
+  - Update documentation about 'dsh -ci' limitations.
+
+ -- Junichi Uekawa <dancer@debian.org>  Tue, 20 Apr 2004 20:49:55 +0900
+
+dsh (0.25.1-1) unstable; urgency=low
+
+  * New upstream version
+    Fix assertion error, and document workaround; 
+    use Ctrl-D instead of exit for now 
+    (Closes: #228513).
+
+ -- Junichi Uekawa <dancer@debian.org>  Thu, 22 Jan 2004 09:16:45 +0900
+
+dsh (0.25.0-1) unstable; urgency=low
+
+  * New upstream version
+  - support windowing of connections.
+  * update package description.
+
+ -- Junichi Uekawa <dancer@debian.org>  Wed, 17 Sep 2003 07:11:32 +0900
+
+dsh (0.24.2-1) unstable; urgency=low
+
+  * New upstream version
+  - added check for the 'security hole' to see if it really exists.
+  * Standards-version: 3.6.1
+
+ -- Junichi Uekawa <dancer@debian.org>  Tue, 26 Aug 2003 08:39:39 +0900
+
+dsh (0.24.0-1) unstable; urgency=low
+
+  * New upstream version
+  * Standards-version: 3.6.0
+
+ -- Junichi Uekawa <dancer@debian.org>  Tue,  5 Aug 2003 05:39:04 +0900
+
+dsh (0.23.12-1) unstable; urgency=low
+
+  * New upstream version
+
+ -- Junichi Uekawa <dancer@debian.org>  Sat, 26 Jul 2003 12:11:33 +0900
+
+dsh (0.23.11-2) unstable; urgency=low
+
+  * Clarify description to note what kind of characteristics it has.
+
+ -- Junichi Uekawa <dancer@debian.org>  Sat, 19 Jul 2003 07:06:08 +0900
+
+dsh (0.23.11-1) unstable; urgency=low
+
+  * New upstream version
+  - portability fixes.
+
+ -- Junichi Uekawa <dancer@debian.org>  Thu, 12 Jun 2003 21:51:57 +0900
+
+dsh (0.23.10-1) unstable; urgency=low
+
+  * New upstream version
+  * fix debian/copyright a little bit.
+  * Standards-version 3.5.10
+  * support DEB_BUILD_OPTIONS noopt and nostrip.
+
+ -- Junichi Uekawa <dancer@debian.org>  Sun,  8 Jun 2003 11:35:08 +0900
+
+dsh (0.23.9-1) unstable; urgency=low
+
+  * New upstream version
+  - improved manual build system.
+  - update man pages.
+  - exit code reflects child exit codes
+  * Install NEWS file.
+
+ -- Junichi Uekawa <dancer@debian.org>  Sat,  7 Jun 2003 02:22:56 +0900
+
+dsh (0.23.7-1) unstable; urgency=low
+
+  * New upstream version
+  - updated manual pages.
+  * updated copyright file.
+
+ -- Junichi Uekawa <dancer@debian.org>  Thu, 29 May 2003 23:03:45 +0900
+
+dsh (0.23.6-1) unstable; urgency=low
+
+  * New upstream version
+  * error-check options such as -b0
+  * No longer use debian/conffiles
+
+ -- Junichi Uekawa <dancer@debian.org>  Fri, 24 Jan 2003 14:35:32 +0900
+
+dsh (0.23.5-1) unstable; urgency=low
+
+  * New upstream version
+  * Documentation update and test updates.
+
+ -- Junichi Uekawa <dancer@debian.org>  Wed, 27 Nov 2002 14:17:07 +0900
+
+dsh (0.23.4-1) unstable; urgency=low
+
+  * New upstream version
+  * Install upstream ChangeLog.
+  * Update standards-version to 3.5.7
+
+ -- Junichi Uekawa <dancer@debian.org>  Mon, 21 Oct 2002 22:50:44 +0900
+
+dsh (0.23.1-1) unstable; urgency=low
+
+  * New upstream version
+  * testsuite in build system
+  * Check if GNU getopt extention is enabled, and work around it if it
+    is. (closes: #161846)
+    Requested by Philippe Troin <phil@fifi.org>
+
+ -- Junichi Uekawa <dancer@debian.org>  Mon, 30 Sep 2002 15:14:27 +0900
+
+dsh (0.22.0-1) unstable; urgency=low
+
+  * New upstream version
+  * Fix duplicate machine entry to be unified (closes: #161845) 
+  * Allow use of "," delimiter for -m option.
+
+ -- Junichi Uekawa <dancer@debian.org>  Sun, 22 Sep 2002 20:31:00 +0900
+
+dsh (0.21.3-1) unstable; urgency=low
+
+  * New upstream version
+  * Fix bug with "-i" option, and properly terminate 
+    when applications are terminated.
+  * Fix machine-list file reading, so that whitespace in the file 
+    is ignored.
+
+ -- Junichi Uekawa <dancer@debian.org>  Thu, 19 Sep 2002 17:35:13 +0900
+
+dsh (0.21.2-1) unstable; urgency=low
+
+  * New upstream version
+  * Fix minor bug with "-i" option, which did not terminate 
+    correctly.
+
+ -- Junichi Uekawa <dancer@debian.org>  Wed, 18 Sep 2002 20:37:15 +0900
+
+dsh (0.21.0-1) unstable; urgency=low
+
+  * New upstream version
+  * New option "-i", to duplicate input stream to all processes
+    implemented.
+
+ -- Junichi Uekawa <dancer@debian.org>  Mon, 16 Sep 2002 18:40:46 +0900
+
+dsh (0.20.4-1) unstable; urgency=low
+
+  * New upstream version
+  * Minor bugfix which should fix the -rssh -cn4 option to work in 
+    an expected way.
+
+ -- Junichi Uekawa <dancer@debian.org>  Sat, 14 Sep 2002 13:32:22 +0900
+
+dsh (0.20.3-1) unstable; urgency=low
+
+  * New upstream version
+  * Add gettext support, and i18n.
+
+ -- Junichi Uekawa <dancer@debian.org>  Wed, 11 Sep 2002 19:26:14 +0900
+
+dsh (0.20.2-1) unstable; urgency=low
+
+  * New upstream version
+  * Using libdshconfig.so library in config file parsing.
+  * remove libdshconfig to another package, and depend on it.
+  * autoconfiscate
+  * Make the package into a non-native package.
+  * call configure with --mandir and --sysconfdir parameters.
+  * use full installed-path to invoke dsh on other machines.
+
+ -- Junichi Uekawa <dancer@debian.org>  Wed, 14 Aug 2002 18:45:40 +0900
+
+dsh (0.0.18) unstable; urgency=low
+
+  * updated README.Debian
+  * updated copyright for year 2002.
+  * Makefile uses $(CC) instead of hardcoding "gcc", just to be cross-build
+    friendly.
+  * Standard input is taken from /dev/null by default. (closes: #98717)
+
+ -- Junichi Uekawa <dancer@debian.org>  Wed, 27 Feb 2002 22:16:05 +0900
+
+dsh (0.0.17) unstable; urgency=low
+
+  * "A Package for your Christmas, my dear Emperor..." release
+  * dsh.1, parameter.c: adding support for specifying arbitrary machine list
+    specifications. the command-line "-f", or "--file"
+  * dsh.1: updated, with redundant tags removed.
+  * dsh.1, parameter.c: updated with a patch from Petter Reinholdtsen to
+    support netgroups in dsh group specification. (closes: 126153)
+  * Created file AUTHORS to give credits on who the code was written.
+  * Marking the upstream homepage and address on README.Debian
+  * Changed function indentation style to suit my new favor.
+  * Added top-level README documentation, which suggests reading of
+    debian/README.Debian
+  * debian/postinst: fixed string comparison, it used to say "==", but it
+    should have been "="
+  * debian/rules: changed the method to obtain the version string for
+    dshversion.h.
+
+ -- Junichi Uekawa <dancer@debian.org>  Sun, 23 Dec 2001 14:32:21 +0900
+
+dsh (0.0.16) unstable; urgency=low
+
+  * Removing /etc/dsh{,/group} on purge. Thanks phil (closes: #113737)
+
+ -- Junichi Uekawa <dancer@debian.org>  Sun, 30 Sep 2001 23:38:43 +0900
+
+dsh (0.0.15) unstable; urgency=low
+
+  * The configuration parser gives a warning when dsh.conf is not
+    parsable, thanks to neil. (closes: #111413)
+  * Please note that since dsh-0.0.14, configuration file format has
+    changed slightly.
+
+ -- Junichi Uekawa <dancer@debian.org>  Sat,  8 Sep 2001 04:51:12 +0900
+
+dsh (0.0.14) unstable; urgency=low
+
+  * Configuration file handling is slightly better - now handles spaces in config files :P (planning to make it into guile or something). Handles waitshell, and showmachinenames, and verbose. Changed dsh.conf to reflect this.
+  * changed the method of obtaining DSH_VERSION to use dpkg-parsechangelog
+
+ -- Junichi Uekawa <dancer@debian.org>  Tue, 21 Aug 2001 23:16:15 +0900
+
+dsh (0.0.13) unstable; urgency=low
+
+  * Fix manpages so that - is escaped with \ (closes: #108033)
+
+ -- Junichi Uekawa <dancer@debian.org>  Wed,  8 Aug 2001 23:20:06 +0900
+
+dsh (0.0.12) unstable; urgency=low
+
+  * support update-cluster
+
+ -- Junichi Uekawa <dancer@debian.org>  Sun, 29 Jul 2001 01:36:01 +0900
+
+dsh (0.0.11) unstable; urgency=low
+
+  * cleaning up the code.
+  * removed -g option from gcc compilation option.
+
+ -- Junichi Uekawa <dancer@debian.org>  Mon,  2 Jul 2001 00:21:54 +0900
+
+dsh (0.0.10) unstable; urgency=low
+
+  * parameter.[ch]: split out files for configuration, and the main program.
+  * added more error checking codes.
+
+ -- Junichi Uekawa <dancer@debian.org>  Sat,  9 Jun 2001 00:15:24 +0900
+
+dsh (0.0.9) unstable; urgency=low
+
+  * clearing up some codes on what is const, in the hope to fix some
+  outstanding bugs.
+  * changed remaining _exit() to exit().
+  * Made "topology" execution to handle "-o" parameters, so that 
+    ssh can use forwarded auth keys with -o -A.
+
+ -- Junichi Uekawa <dancer@debian.org>  Sat, 26 May 2001 02:19:32 +0900
+
+dsh (0.0.8) unstable; urgency=low
+
+  * The build system now extracts version number from the changelog. (dsh
+    --version option will not output the correct version information).
+  * changed all _exit() calls to exit()
+  * Updated manpage dsh.1 to match the reality.
+  * handles stderr output for -M option. All output that are sent to
+    stderr on the remote machines are displayed on the stderr of the 
+    local machine.
+
+ -- Junichi Uekawa <dancer@debian.org>  Thu, 24 May 2001 01:57:10 +0900
+
+dsh (0.0.7) unstable; urgency=low
+
+  * bugfix. Added a fflush before _exit, (closes: 97818)
+
+ -- Junichi Uekawa <dancer@debian.org>  Wed, 23 May 2001 00:12:38 +0900
+
+dsh (0.0.6) unstable; urgency=low
+
+  * update version.
+  * trying to fix the process bug, not being quite successful. It should
+    be fine now when -M option is not specified.
+  * Fixed a segv in config file loading. This really (closes: #97675)
+
+ -- Junichi Uekawa <dancer@debian.org>  Sun, 20 May 2001 02:11:49 +0900
+
+dsh (0.0.5) unstable; urgency=low
+
+  * new release
+  * supports "topology". A method to spawn dsh on other machines to 
+    spawn more rsh from other machines. Trying to help a machine 
+    out from spawning all 256 or so rsh sessions.
+    A topology of 2 will result in binary-tree arrangement.
+    A topology of 3 would be better, I'd guess. Not thoroughly tested.
+
+ -- Junichi Uekawa <dancer@debian.org>  Sat, 19 May 2001 02:59:42 +0900
+
+dsh (0.0.4) unstable; urgency=low
+
+  * bugfixes and updates
+  * Supports username@host format as a valid machine name specification.
+    It can be used in machines.list, and command line and 
+    everywhere (closes: #97819).
+
+ -- Junichi Uekawa <dancer@debian.org>  Fri, 18 May 2001 02:50:02 +0900
+
+dsh (0.0.3) unstable; urgency=low
+
+  * bugfixes
+  * fixed one configuration file loading bug. hopefully (closes: #97675)
+  * added --show-machine-names option to make stdout to be prepended
+    with the hostname of the machine that the command is being executed.
+    (closes: #97336)
+  * reordered the rsh execution routine so that it looks cleaner.
+
+ -- Junichi Uekawa <dancer@debian.org>  Thu, 17 May 2001 02:23:35 +0900
+
+dsh (0.0.2) unstable; urgency=low
+
+  * Updates.
+  * --remoteshellopt added. Config files handling has been implemented.
+    Quite a few bugs have been removed. Linked list handling routine
+    has moved out of the main source.
+  * /etc/dsh/dsh.conf is installed, and is a conffile.
+
+ -- Junichi Uekawa <dancer@debian.org>  Wed, 16 May 2001 00:39:04 +0900
+
+dsh (0.0.1) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Junichi Uekawa <dancer@debian.org>  Mon, 14 May 2001 22:53:04 +0900
+
+
